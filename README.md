@@ -1,7 +1,7 @@
 # RF-Fingerprint-CNN-Classifier
 
 ## Overview
-This project focuses on constructing a classifier using Convolutional Neural Networks (CNN) to identify RF fingerprints. The process involves three main stages to create training and testing datasets.
+This project focuses on constructing a classifier using Convolutional Neural Networks (CNN) to identify RF fingerprints to BLE Devices. The process involves three main stages to create training and testing datasets.
 
 ## Stages
 
