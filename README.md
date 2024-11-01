@@ -11,7 +11,12 @@ This project focuses on constructing a classifier using Convolutional Neural Net
 
 ### Stage 2: Filtering Corrupted Frames
 - **File:** `Frame_Filter_B.ipynb`
-- **Description:** Performs additional filtering on partially captured frames. It constructs a training set of 2000 samples and a testing set of 400 samples for each device, which are then concatenated.
+- **Description:** Performs additional filtering on partially captured frames. It constructs a training set of 2000 samples and a testing set of 400 samples for each device, which are then concatenated. This is how the each dataset looks like at the output of this stage:
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/639411f7-f879-4d4a-9349-11655f53b3950" alt="Description" width="400" />
+</p>
+
+
 
 ### Stage 3: Preprocessing and Training
 - **File:** `BLE_RF_CNN_Training.ipynb`
@@ -26,9 +31,8 @@ This project focuses on constructing a classifier using Convolutional Neural Net
 5. Adjust the CNN structure in the designated cell, modifying the model, hyperparameters, and/or optimizers as needed before starting the training.
 6. Load your testing data. Ensure that the same preprocessing technique used for training is applied to the testing data for meaningful results.
 
-## Author
-Haytham Albousayri
+## References
 
-
-## Contact
-For questions or inquiries, please reach out to Haytham Albousayri at Albousah@oregonstate.edu.
+Here are the citations you can use in your research:
+```markdown
+For a complete list of references, see [references.bib](path/to/references.bib).
